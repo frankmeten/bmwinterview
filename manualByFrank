@@ -1,0 +1,14 @@
+cd initial directory
+./mvnw clean package
+java -jar target/gs-rest-service-0.1.0.jar
+
+# upload data
+
+curl -v -H "Content-Type: application/json" -X POST -d '{"timestamp":"1519990621975","sessionid":"6bc6a660dfef4010ded079865f358e30","vehicleid":"WLQBNAL7EM14E3N", "latitude":"48.1167", "longitude":"11.54", "heading":"115"}' 10.140.254.55:8080/position
+
+
+# get data
+
+curl -v -H "Content-Type: application/json" -X GET  10.140.254.55:8080/position
+
+
