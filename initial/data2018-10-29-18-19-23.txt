@@ -1,0 +1,1 @@
+timestamp:1519990621975         sessionid:6bc6a660dfef4010ded079865f358e30         vehicleid:WLQBNAL7EM14E3N         latitude:48.1167         longitude:11.54         heading:115
